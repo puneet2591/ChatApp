@@ -1,0 +1,25 @@
+# Xcode
+*.xcuserdata
+*.xcuserstate
+*.xccheckout
+*.xcworkspace
+DerivedData/
+build/
+
+# Swift Package Manager
+/.build
+/Packages
+Package.resolved
+
+# CocoaPods
+/Pods
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Firebase
+GoogleService-Info.plist
+
+# macOS
+.DS_Store
