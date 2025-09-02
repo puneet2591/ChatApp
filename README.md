@@ -30,31 +30,37 @@ A real-time iOS chat application built with **SwiftUI** and **MVVM architecture*
 ### Demo (VIDEO)
 ![Demo](screenshots/demo.gif)
 
-
-⚡ Getting Started
-1. Clone the repo
+1️⃣ Clone the Repository
 git clone https://github.com/puneet2591/ChatApp.git
 cd SwiftUI-Firebase-ChatApp
 
-2. Open in Xcode
+2️⃣ Open the Project
 
-Open the .xcodeproj or .xcworkspace file in Xcode.
+Launch Xcode (latest stable version recommended).
 
-3. Configure Firebase
+Open the .xcodeproj or .xcworkspace file.
 
-Go to Firebase Console
-.
+3️⃣ Configure Firebase
 
-Create a project.
+Go to the Firebase Console
+ and create a new project.
 
-Enable Authentication and Firestore Database.
+Enable the following services:
 
-Download your GoogleService-Info.plist.
+Authentication (Email/Password or your preferred method)
 
-Add it to your Xcode project (but do not commit it to GitHub).
+Cloud Firestore (in test mode for development)
 
-4. Run the App 🚀
+Download the GoogleService-Info.plist file.
 
-Build & run on Simulator or physical iPhone.
+Add it to the root of your Xcode project (drag & drop into the Project Navigator).
 
-Create two accounts to test chat in real-time.
+⚠️ Do not commit this file to GitHub — it contains private credentials.
+
+4️⃣ Run the App 🚀
+
+Select a simulator or connect a real iOS device.
+
+Press Run (⌘R) in Xcode.
+
+Create two accounts to test real-time messaging between users.
